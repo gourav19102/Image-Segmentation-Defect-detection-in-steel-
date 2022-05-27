@@ -11,8 +11,9 @@ curious about Image Segmentaion refer this blogs:
 [image_segementaion-2](https://towardsdatascience.com/semantic-image-segmentation-using-fully-convolutional-networks-bf0189fa3eb8)
 
 ## Evaluation Matrix used:
-The mean Dice coefficient is used to evaluate model . The Dice coefficient compares the pixel-wise agreement between a predicted segmentation and its matching ground truth.The formula is given by:
-{\displaystyle DSC={\frac {2|X\cap Y|}{|X|+|Y|}}}
-
-
+The mean Dice coefficient is used to evaluate model . The Dice coefficient compares the pixel-wise agreement between a predicted segmentation and its matching ground truth.<br>
 refer wiki for more : [DICE COEFFICIENT](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient) 
+
+## MODELS COMPARED:
+1. [U-Net](https://arxiv.org/abs/1505.04597):<br> 
+This U-Net architecture was originally developed for Biomedical Image Segmentation. This architecture mainly contains two paths: Encoder Path & Decoder Path. And the connections between Encoder & Decoder at each level is the key feature of this architecture.
