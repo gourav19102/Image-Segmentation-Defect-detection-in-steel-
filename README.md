@@ -23,7 +23,7 @@ LinkNet architecture is almost similar to U-Net with a little modification. The 
 
 ## MODEL PREDICTION COMPARED:
 
-
+![prediciton for image id:]([image.jpg](https://github.com/gourav19102/Image-Segmentation/blob/main/images/download.png))
 
 
 
