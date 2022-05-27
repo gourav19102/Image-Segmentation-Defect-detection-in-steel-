@@ -23,7 +23,8 @@ LinkNet architecture is almost similar to U-Net with a little modification. The 
 
 ## MODEL PREDICTION COMPARED:
 Unet and linknet mask prediction for image id 4d38c353e is given below:<br> <br> 
-![prediciton for image id:](https://github.com/gourav19102/Image-Segmentation/blob/main/images/Capture.PNG)
+![prediciton for image id:](https://github.com/gourav19102/Image-Segmentation/blob/main/images/result.PNG)
 
 Both perform quite well here !
 ## MODEL ACCURACY OBTAINED:
+![alt text](image.jpg)
