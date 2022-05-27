@@ -1,5 +1,5 @@
 # IMAGE_SEGMENTATION
-This repository offers a comparison study of three image segmentation models: UNET, LINKNET, and UNET++. The image segmentation use case here will be the kaggle-hosted severstal steel defect detection problem.
+This repository offers a comparison study of two image segmentation models: UNET and LINKNET. The image segmentation use case here will be the kaggle-hosted severstal steel defect detection problem.
 
 ## DATASET USED:
 [Severstal: Steel Defect Detection](https://www.kaggle.com/c/severstal-steel-defect-detection/data)
@@ -19,8 +19,7 @@ refer wiki for more : [DICE COEFFICIENT](https://en.wikipedia.org/wiki/S%C3%B8re
 U-Net architecture was originally developed for Biomedical Image Segmentation. This architecture mainly contains two paths: Encoder Path & Decoder Path. And the connections between Encoder & Decoder at each level is the key feature of this architecture.<br>
 2. [Link-Net](https://arxiv.org/abs/1707.03718):<br>
 LinkNet architecture is almost similar to U-Net with a little modification. The Encoder and Decoder path construct remains same as in U-Net. But the outputs of the encoder blocks after passing through the connection gets added(concatenation in case of U-Net ) to the input tensors of the decoder blocks.<br>
-3. [U-Net++](https://arxiv.org/abs/1807.10165):<br>
-In this architecture, we are generating decoder paths at every level of the encoder path. And we are making skip connection between all the blocks at each level. These help in reducing the semantic gap between the Encoder path and Decoder subpaths<br>
+
 
 ## MODEL PREDICTION COMPARED:
 
