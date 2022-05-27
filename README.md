@@ -6,8 +6,8 @@ This repository offers a comparison study of two image segmentation models: UNET
 
 ## PROBLEM STATEMENT: 
 The objective of this project is to predict the location and type of deffect found in steel manufacturing using the images provided. for more details you can visit : [Severstal steel](https://www.kaggle.com/c/severstal-steel-defect-detection)<br><br>
-curious about Image Segmentaion refer this blogs: 
-[image segmentation-1](https://neptune.ai/blog/image-segmentation),
+curious about Image Segmentaion refer this blogs: <br>
+[image segmentation-1](https://neptune.ai/blog/image-segmentation),<br>
 [image_segementaion-2](https://towardsdatascience.com/semantic-image-segmentation-using-fully-convolutional-networks-bf0189fa3eb8)
 
 ## EVALUATION MATRIX USED:
