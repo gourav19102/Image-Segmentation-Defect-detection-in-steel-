@@ -1,4 +1,4 @@
-# IMAGE_SEGMENTATION
+# IMAGE_SEGMENTATION (Steel Defect Detection) 
 This repository offers a comparison study of two image segmentation models: UNET and LINKNET. The image segmentation use case here will be the kaggle-hosted severstal steel defect detection problem.
 
 ## DATASET USED:
